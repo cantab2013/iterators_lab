@@ -13,6 +13,8 @@ Research the following term and summarize your findings on it two to three sente
 
 * `higher-order function`
 
+[ANSWER: High-order function takes functions as input and outputs a function. Basically, it's a processor of functions, and as a result it's of a "higher-order" of hierarchy relative to the normal functions which take non-function inputs and return non-functional outputs.]
+
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
@@ -27,7 +29,7 @@ Pretending we implemented the following methods, update this README with a descr
 
 Use the notes provided to help guide you explanation.
 
-
+[ANSWER: See in-line comments in iterators.js file]
 
 
 ### Phase-2 

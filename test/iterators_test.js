@@ -16,3 +16,19 @@ describe('Iterators', function(){
     })
   })
 })
+
+describe('Iterators', function(){
+  describe('#min', function(){
+    var myArr;
+    beforeEach(function(){
+      myArr = [66,22,67, 34];
+    });
+    it('should return the minimum in an array', function(){
+      expect(Iterators.min(myArr)).to.equal(22);
+    })    
+    it('should return Infinity for empty array', function(){
+      myArr = [];
+      expect(Iterators.min(myArr)).to.equal(Infinity);
+    })
+  })
+})
